@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".ProgressPage">
 
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="199dp"
+        android:layout_height="204dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="81dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
