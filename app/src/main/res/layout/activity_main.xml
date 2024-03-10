@@ -38,9 +38,12 @@
         android:id="@+id/button3"
         android:layout_width="77dp"
         android:layout_height="17dp"
+        android:layout_marginTop="4dp"
         android:text="Forgot Password"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="401dp" />
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
     <Button
         android:id="@+id/button2"
