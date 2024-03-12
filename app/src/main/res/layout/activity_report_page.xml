@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ReportPage">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgc2" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="410dp"
         android:layout_height="305dp"
